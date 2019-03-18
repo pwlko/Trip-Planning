@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="radius_values_array">
+        <item>1km</item>
+        <item>5km</item>
+        <item>10km</item>
+        <item>20km</item>
+        <item>30km</item>
+        <item>40km</item>
+        <item>50km</item>
+    </string-array>
+</resources>

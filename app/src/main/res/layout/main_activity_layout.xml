@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_photo"
+    tools:context="com.example.pbwi.planyourtrip.activieties.MainActivity"
+        >
+
+        <TextView
+            android:id="@+id/titleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/welcome_in"
+            android:textSize="32sp"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textStyle="bold"            />
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="@string/in"-->
+        <!--android:textSize="28sp"-->
+        <!--android:textColor="@color/colorText"-->
+        <!--android:gravity="center"-->
+        <!--android:textStyle="bold"            />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/planyourtrip"
+        android:textSize="42sp"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textStyle="bold"            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logo_200"
+            android:alpha="0.95"
+            android:scaleX="0.70"
+            android:scaleY="0.70"
+            />
+
+    <EditText
+        android:id="@+id/email_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:background="@drawable/rounded_edittext_drawable"
+        android:alpha="0.85"
+        android:textColor="#000000"
+        android:textColorHint="@color/place_autocomplete_prediction_secondary_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textColorHint="@color/place_autocomplete_prediction_secondary_text"
+        android:ems="10"
+        android:background="@drawable/rounded_edittext_drawable"
+        android:alpha="0.85"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/text_login"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:id="@+id/forgot_password_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/forgotten_password"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/colorText"
+        android:background="#000000"
+        android:alpha="0.8"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/register_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text_not_member"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/colorText"
+        android:background="#000000"
+        android:alpha="0.8"
+        android:layout_marginTop="20dp"
+        />
+
+
+    </LinearLayout>

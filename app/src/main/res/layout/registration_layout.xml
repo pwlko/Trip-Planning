@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_photo"
+    android:orientation="vertical"
+    tools:context="com.example.pbwi.planyourtrip.activieties.RegisterActivity">
+
+    <include
+        layout="@layout/back_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--<EditText-->
+            <!--android:id="@+id/etUserName"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="5dp"-->
+            <!--android:layout_marginEnd="5dp"-->
+            <!--android:alpha="0.85"-->
+            <!--android:background="@drawable/rounded_edittext"-->
+            <!--android:hint="@string/hint_name"-->
+            <!--android:inputType="text"-->
+            <!--android:maxLines="1"-->
+            <!--android:textColor="#90000000"-->
+            <!--android:textColorHint="#90000000" />-->
+
+        <EditText
+            android:id="@+id/user_email_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:alpha="0.85"
+            android:background="@drawable/rounded_edittext_drawable"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="#90000000"
+            android:textColorHint="#90000000" />
+
+        <EditText
+            android:id="@+id/user_email_repetition_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:alpha="0.85"
+            android:background="@drawable/rounded_edittext_drawable"
+            android:hint="@string/hint_email_repetition"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="#90000000"
+            android:textColorHint="#90000000" />
+
+        <EditText
+            android:id="@+id/etUserPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:alpha="0.85"
+            android:background="@drawable/rounded_edittext_drawable"
+            android:ems="10"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#90000000"
+            android:textColorHint="#90000000"
+
+            />
+
+        <EditText
+            android:id="@+id/user_password_repetition_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:alpha="0.85"
+            android:background="@drawable/rounded_edittext_drawable"
+            android:ems="10"
+            android:hint="@string/hint_password_repetition"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="#90000000"
+            android:textColorHint="#90000000"
+
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/rounded_buttons"
+            android:text="@string/text_register"
+            android:textColor="@color/colorText" />
+
+
+    </LinearLayout>
+</LinearLayout>

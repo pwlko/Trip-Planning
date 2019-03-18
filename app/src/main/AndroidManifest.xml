@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pbwi.planyourtrip">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logolauncher_ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logolauncher_ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activieties.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activieties.RegisterActivity"
+            android:parentActivityName=".activieties.UserActivity"/>
+        <activity android:name=".activieties.UserActivity" />
+        <activity android:name=".activieties.SavedPlaces.SavedPlacesActivity"/>
+        <activity android:name=".activieties.Tracks.TrackingActivity"/>
+        <activity android:name=".activieties.BaseActivity" />
+        <activity android:name=".activieties.Settings.SettingsActivity" />
+        <activity android:name=".activieties.Settings.ChangeEmailActivity"
+            android:parentActivityName=".activieties.Settings.SettingsActivity"/>
+        <activity android:name=".activieties.Settings.ChangePasswordActivity"
+            android:parentActivityName=".activieties.Settings.SettingsActivity"/>
+        <activity android:name=".activieties.SavedPlaces.SavedPlaceDetailsActivity"
+            android:parentActivityName=".activieties.SavedPlaces.SavedPlacesActivity"/>
+        <activity android:name=".activieties.Tracks.SavedTracksActivity" />
+        <activity android:name=".activieties.Tracks.SavedTrackDetailsActivity"
+            android:parentActivityName=".activieties.Tracks.SavedTracksActivity"/>
+        <activity android:name=".activieties.PlannedTrip.TripPlanningActivity" />
+        <activity android:name=".activieties.PlannedTrip.SavedPlannedTripsActivity" />
+        <activity android:name=".activieties.PlannedTrip.SavedPlannedTripDetailsActivity"
+            android:parentActivityName=".activieties.PlannedTrip.SavedPlannedTripsActivity"/>
+        <activity android:name=".activieties.ForgottenPasswordActivity"
+            android:parentActivityName=".activieties.MainActivity"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.
+   READ_GSERVICES" />
+
+
+
+    <uses-permission android:name="com.vivianaranha.mapsapp.permission.MAP_RECEIVE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.location.gps"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+
+</manifest>

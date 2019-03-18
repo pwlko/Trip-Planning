@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#8f9496"
+    android:padding="10dp"
+    android:id="@+id/header_nav_view"
+    tools:context=".activieties.BaseActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="20dp"
+        />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="user"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginStart="20dp"-->
+
+        <!--/>-->
+
+    <TextView
+        android:id="@+id/header_email_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hint_email"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        />
+
+
+
+</LinearLayout>

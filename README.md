@@ -1,2 +1,2 @@
-# PlanYourTrip
-Android trip planning application
+# Trip-Planning
+Android Trip planning application

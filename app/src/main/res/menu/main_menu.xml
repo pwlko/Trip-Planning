@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_attractions"-->
+            <!--android:title="@string/attractions_title"-->
+            <!--android:icon="@drawable/ic_attraction_24dp"/>-->
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home_gray_24dp"/>
+        <item
+            android:id="@+id/nav_saved_planned_trips"
+            android:title="@string/saved_trips"
+            android:icon="@drawable/ic_folder_saved_24dp"/>
+        <item
+            android:id="@+id/nav_saved_places"
+            android:title="@string/saved_places_menu"
+            android:icon="@drawable/ic_place_gray_24dp"/>
+        <item
+            android:id="@+id/nav_saved_tracks"
+            android:title="@string/saved_tracks_menu"
+            android:icon="@drawable/ic_track_24dp"/>
+        <item
+            android:id="@+id/nav_tracking"
+            android:title="@string/button_tracking"
+            android:icon="@drawable/ic_navigation_24dp"/>
+
+        <item
+            android:id="@+id/nav_trip_planning"
+            android:title="@string/trip_planning_menu"
+            android:icon="@drawable/ic_map_gray_24dp"/>
+
+
+        <item
+            android:id="@+id/nav_account"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_account_24dp"/>
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout"
+            android:icon="@drawable/ic_logout_24dp"
+            />
+
+
+    </group>
+</menu>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_transparent_bg_gray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Attraction list:"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Add all"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginEnd="2dp"
+            />
+
+        <CheckBox
+            android:id="@+id/places_to_visit_all_selection_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:buttonTint="#FFFFFF"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:layout_marginEnd="10dp"
+            />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/places_to_visit_menu_ImageButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/ic_more_vert_gray_36dp"-->
+            <!--android:layout_gravity="end"-->
+            <!--style="SpinnerButton"/>-->
+    </LinearLayout>
+
+    <View
+        style="@style/Divider_darker"
+        android:layout_gravity="center_vertical" />
+
+    <ListView
+        android:id="@+id/places_to_visit_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp"
+
+        />
+    <View
+        style="@style/Divider_darker"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/places_powered_by_google_light"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="end"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+
+        <Button
+            android:id="@+id/places_to_visit_cancel_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_buttons"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/places_to_visit_ok_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_buttons"
+            android:text="Add selected"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
